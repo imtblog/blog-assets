@@ -4,7 +4,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
-calculator-container {
+.calculator-container {
 width: 100%;
 max-width: 400px;
 margin: 15px auto;
@@ -14,7 +14,7 @@ border-radius: 8px;
 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 background-color: #f9f9f9;
 }
-calculator-h2 {
+.calculator-h2 {
 text-align: center;
 }
 .ohm-form-group {
