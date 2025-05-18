@@ -1,0 +1,125 @@
+.body-calculator {
+margin: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+calculator-container {
+width: 100%;
+max-width: 400px;
+margin: 15px auto;
+padding: 20px;
+border: 1px solid #ddd;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+background-color: #f9f9f9;
+}
+calculator-h2 {
+text-align: center;
+}
+.ohm-form-group {
+margin-bottom: 15px;
+}
+.ohm-form-label {
+display: block;
+font-size: 14px;
+}
+.ohm-form-input {
+width: calc(100% - 20px);
+padding: 8px;
+margin-top: 5px;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+.ohm-calculate-button {
+width: 100%;
+padding: 10px;
+background-color: #28a745;
+color: white;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+font-size: 16px;
+}
+.ohm-calculate-button:hover {
+background-color: #218838;
+}
+.ohm-calculation-result {
+margin-top: 20px;
+padding: 10px;
+background-color: #f1f1f1;
+border-radius: 5px;
+text-align: center;
+font-size: 18px;
+}
+.valore-r {
+margin-bottom: 15px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+.valore-r label {
+display: block;
+margin-bottom: 5px;
+width: auto;
+}
+.input-select-container {
+display: flex;
+flex-direction: row;
+align-items: center;
+width: 100%;
+}
+.valore-r input {
+width: 100%;
+padding: 8px;
+font-size: 14px;
+margin-right: 10px;
+}
+.valore-r select {
+width: 70px;
+padding: 8px;
+font-size: 14px;
+}
+.valore-r button {
+padding: 10px 15px;
+background-color: #007bff;
+color: white;
+border: none;
+cursor: pointer;
+margin-top: 10px;
+}
+.valore-r button:hover {
+background-color: #0056b3;
+}
+.result {
+font-size: 18px;
+font-weight: bold;
+margin-top: 20px;
+display: flex;
+align-items: center;
+}
+.result input {
+width: 100%;
+padding: 8px;
+font-size: 14px;
+text-align: right;
+margin-right: 10px;
+margin-left: 10px;
+}
+#result-unit {
+width: 70px;
+padding: 8px;
+font-size: 14px;
+}
+@media (max-width: 480px) {
+.calculator-container {
+width: 90%;
+padding: 15px;
+}
+.valore-r input {
+width: 100%;
+}
+.result input {
+width: 100%;
+}
+}
